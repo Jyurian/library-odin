@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    height:100vh
+}
+
+.header{
+    height: 10vh;
+}
+
+.title{
+    display: block;
+    text-align: center;
+    padding-top: 0.5em;
+    font-size: 3em;
+}
+
+.content{
+    background-color: lightgray;
+    height: 90vh;
+}
+
+.showDialog{
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+#favDialog{
+  position: relative;
+  margin: auto;
+}
